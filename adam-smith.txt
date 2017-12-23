@@ -1,0 +1,48 @@
+{
+ general: {
+  name: "Adam Smith",
+  age: 20,
+  height: 1,70,
+  weight: 70
+ },
+ race: "human",
+ level: 1,
+ class: {[
+  {
+   name: "wizard",
+   levels: 1,
+   specialization-school: "transmutation",
+   forbidden-schools: ["necromancy", "enchantment"]
+  }
+ ]},
+ abilities: {
+  strength: 8
+  dexterity: 12
+  constitution: 12
+  intelligence: 18
+  wisdom: 14
+  charisma: 12
+ },
+ throws: {
+  fortitude: 1,
+  reflexes: 1  
+  will: 4
+ },
+ skills: {
+  knowledge_arcana: 4,
+  knowledge_economy: 4,
+  knowledge_history: 4,
+  knowledge_local: 4,
+  decipher: 4,
+  spellcraft: 4,
+  concentration: 4
+ },
+ feats: {
+  []
+ }
+
+
+ background: "",
+ 
+ notes: ""
+}
