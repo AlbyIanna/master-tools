@@ -42,8 +42,43 @@
    },
    "feats":[  
 	"combat casting",
-	"spell focus(trasmutation)"
+	"spell focus(trasmutation)",
+	"scribe scroll"
    ],
+   "spells": {
+	"perday": {
+		"0": 3,
+		"1": 2
+	},
+	"known": {
+		"0": [
+			"resistance",
+			"acid splash",
+			"detect poison",
+			"read magic"
+			"dancing lights",
+			"flare",
+			"light",
+			"ray of frost",
+			"ghost sound",
+			"mage hand",
+			"mending",
+			"message",
+			"open/close",
+			"arcane mark",
+			"prestidigitation"
+		],
+		"1": [
+			"animate rope",
+			"feather fall",
+			"mount",
+			"floating disk",
+			"identify",
+			"grease",
+			"alarm"
+		]
+	}
+   }
    "background":"",
    "notes":""
 }
