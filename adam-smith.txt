@@ -41,7 +41,8 @@
       "concentration":4
    },
    "feats":[  
-
+	"combat casting",
+	"spell focus(trasmutation)"
    ],
    "background":"",
    "notes":""
