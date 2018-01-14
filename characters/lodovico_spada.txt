@@ -1,0 +1,162 @@
+{
+   "general":{
+      "name":"Lodovico Spada",
+      "age":27,
+      "height":1.75,
+      "weight":65
+   },
+   "race":"human",
+   "background":"",
+   "notes":"",
+   "level-1":{
+      "class":"warlock",
+      "class-features":{
+         "eldritch-blast": "1d6",
+         "invocations": {
+         	"least": "spiderwalk"
+         }
+      },
+      "hp": 6,
+      "bab":0.66,
+	  "speed": 30,
+      "abilities":{
+         "strength":11,
+         "dexterity":18,
+         "constitution":15,
+         "intelligence":14,
+         "wisdom":13,
+         "charisma":16
+      },
+      "throws":{
+         "fortitude":"LOW",
+         "reflexes":"LOW",
+         "will":"LOW"
+      },
+      "skills":{
+      	 "concentration": 4,
+         "knowledge_arcana":4,
+         "bluff":4,
+         "spellcraft":4,
+         "use-magic-device":4
+      },
+      "feats":[
+         "improved initiative",
+         "mortal bane"
+      ],
+      "weapon-proficiences": ["SIMPLE"],
+      "armor-proficiences": ["LIGHT"]
+   },
+   "level-2":{
+      "class":"warlock",
+      "class-features":{
+      	"spell-like":["detect magic"],
+      	"invocations": {
+         	"least": "earthen grasp"
+         }
+      },
+      "bab":0.66,
+      "throws":{
+         "fortitude":"LOW",
+         "reflexes":"LOW",
+         "will":"HIGH"
+      },
+      "skills":{
+         "concentration": 1,
+         "knowledge_arcana":1,
+         "bluff":1,
+         "spellcraft":1,
+         "use-magic-device":1
+      }
+   },
+   "level-3":{
+      "class":"warlock",
+      "class-features":{
+      	"eldritch-blast": "2d6",
+      	"damage-reduction": "1/cold iron",
+      },
+      "bab":0.66,
+      "throws":{
+         "fortitude":"LOW",
+         "reflexes":"LOW",
+         "will":"HIGH"
+      },
+      "skills":{
+         "concentration": 1,
+         "knowledge_arcana":1,
+         "bluff":1,
+         "spellcraft":1,
+         "use-magic-device":1
+      },
+      "feats":[
+         "spell-like ability focus"
+      ]
+   },
+   "level-4":{
+      "class":"warlock",
+      "class-features":{
+      	"invocations": {
+         	"least": "baleful utterance"
+        },
+      	"deceive item": ""
+      },
+      "bab":0.66,
+      "abilities":{
+         "constitution":1
+      },
+      "throws":{
+         "fortitude":"LOW",
+         "reflexes":"LOW",
+         "will":"HIGH"
+      },
+      "skills":{
+         "concentration": 1,
+         "knowledge_arcana":1,
+         "bluff":1,
+         "spellcraft":1,
+         "use-magic-device":1
+      }
+   },
+   "level-5":{
+      "class":"warlock",
+      "class-features":{
+      	"eldritch-blast": "3d6"
+      },
+      "bab":0.66,
+      "throws":{
+         "fortitude":"LOW",
+         "reflexes":"LOW",
+         "will":"HIGH"
+      },
+      "skills":{
+         "concentration": 1,
+         "knowledge_arcana":1,
+         "bluff":1,
+         "spellcraft":1,
+         "use-magic-device":1
+      }
+   },
+   "level-6":{
+      "class":"warlock",
+      "class-features":{
+      	"invocations": {
+         	"lesser": "flee the scene"
+        }
+      },
+      "bab":0.66,
+      "abilities":{
+         "constitution":1
+      },
+      "throws":{
+         "fortitude":"LOW",
+         "reflexes":"LOW",
+         "will":"HIGH"
+      },
+      "skills":{
+         "concentration": 1,
+         "knowledge_arcana":1,
+         "bluff":1,
+         "spellcraft":1,
+         "use-magic-device":1
+      }
+   }
+}
