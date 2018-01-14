@@ -72,7 +72,7 @@
       "class":"warlock",
       "class-features":{
       	"eldritch-blast": "2d6",
-      	"damage-reduction": "1/cold iron",
+      	"damage-reduction": "1/cold iron"
       },
       "bab":0.66,
       "throws":{
